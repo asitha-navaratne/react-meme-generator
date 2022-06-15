@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-image: linear-gradient(45deg, #672280, #a626d3);
+  color: white;
+}
+
+.header--title {
+  display: flex;
+  align-items: center;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+}
+
+.header--logo {
+  margin-right: 20px;
+  height: 60px;
+}
+
+.header--subtitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
