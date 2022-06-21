@@ -55,6 +55,36 @@ main {
   cursor: pointer;
 }
 
+.meme {
+  grid-column: 1 / -1;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
 .meme--image {
   max-width: 100%;
+}
+
+.meme--text {
+  position: absolute;
+  font-family: "Anton", sans-serif;
+  color: #fff;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 3px 3px #000, -3px -3px #000, -3px 3px #000, 3px -3px #000,
+    3px 0px #000, 0px 3px #000, -3px 0px #000, 0px -3px #000;
+}
+
+.top {
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom {
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
