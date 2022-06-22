@@ -60,6 +60,7 @@ main {
   display: flex;
   position: relative;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .meme--image {
